@@ -41,7 +41,7 @@ const EventsProvider = (props) => {
       });
 
   }
-  // const value = { events,  search, getEvents, searchResults, searchActive, setSearchResults, location, setLocation, mapContainer, mapboxgl, map}
+
   const value = { events,  search, getEvents, searchResults, searchActive, setSearchResults,  location, setLocation}
   return (
     <EventsContext.Provider value={value}>

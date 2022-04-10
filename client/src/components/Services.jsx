@@ -206,50 +206,7 @@ const Services = () => {
           </Row>
         </Container>
 
-        {/* <div className="service">
-          <div className="service-image">
-            <img src="images/government-resources.jpg" className="card-img" alt="government-resources" />
-            <div className="service-text">
-              <h5 className="card-title">Employment Services</h5>
-              <p className="card-text">Peterborough</p>
-              <div className='chat-button'>
-               <Button variant="info">Chat</Button>
-               <i class="fa fa-heart" aria-hidden="true"></i>
-              </div>           
-             
-            </div>
-          </div>
-        </div>  
-        <div className="service">
-          <div className="service-image">
-            <img src="images/government-resources.jpg" className="card-img" alt="government-resources" />
-            <div className="service-text">
-              <h5 className="card-title">Meal delivery services</h5>
-              <p className="card-text">Toronto</p>
-              <div className='chat-button'>
-               <Button variant="info">Chat</Button>
-               <i class="fa fa-heart" aria-hidden="true"></i>
-              </div>           
-             
-            </div>
-          </div>
-        </div>  
-
-        <div className="service">
-          <div className="service-image">
-            <img src="images/government-resources.jpg" className="card-img" alt="government-resources" />
-            <div className="service-text">
-              <h5 className="card-title">Law and safety</h5>
-              <p className="card-text">Alberta</p>
-              <div className='chat-button'>
-               <Button variant="info">Chat</Button>
-               <i class="fa fa-heart" aria-hidden="true"></i>
-              </div>           
-             
-            </div>
-          </div>
-        </div>   */}
-
+        
         <div className="contact-tag">
           <h3>Community Contact </h3>
           <p>
