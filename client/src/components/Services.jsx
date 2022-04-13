@@ -7,8 +7,9 @@ import "./Services.scss";
 const Services = () => {
   const [service, setService] = useState([]);
 
+  
   useEffect(() => {
-    axios.get("/api/services").then((response) => {
+    axios.get(`${process.env.REACT_APP_BASEURL}/api/services`).then((response) => {
       setService(response.data);
     });
   }, []);
@@ -16,13 +17,11 @@ const Services = () => {
   const allServices = service.map((item) => {
     return (
       <>
-        {/* <Card style={{ width: "18rem" }}> */}
         <Card className="s-card mx-3">
           <Card.Img variant="top mt-4" src={item.image_url} />
           <Card.Body>
             <Card.Title>{item.title}</Card.Title>
             <Card.Text>{item.description}</Card.Text>
-            {/* <Button variant="primary">Message</Button> */}
           </Card.Body>
           <div className="p-3 h3">
             <Mailto email={item.email} title={item.title} />
